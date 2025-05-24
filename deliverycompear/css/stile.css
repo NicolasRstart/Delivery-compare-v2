@@ -1,0 +1,48 @@
+.cyan{
+    color: aquamarine;
+}    
+
+.black{
+    color: black;
+}
+.listado{
+    display: flex;
+    flex-direction: column;
+}
+.fix{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botomtext{
+    color: aliceblue;
+    background-color: black;
+}
+.centrador{
+    display: grid;
+    place-items: center;
+}
+.slider{
+    aspect-ratio: 1 / 1;
+    width: 200px;
+    height: 270px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    background-image:url(../imagenes/descarga\ g.jpg);
+
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+
+}
